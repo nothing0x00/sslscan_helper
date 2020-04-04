@@ -14,6 +14,11 @@ Once these prompts are completed the script will scan each host on the list, the
 
 ### Installation
 
+The script requires the rbsec rewrite of sslscan (https://github.com/rbsec/sslscan), rather than the older Titania developed version.
+This version is installed through apt on Ubuntu 18.04, Kali and others. Check your apt packages for the version included in the package repo.
+If the older version is included in the repo then it is possible to custom compile the rbsec version of sslscan and modify the script to run with this custom compiled version.
+Eventually, I will add a version of the script into this repo which will install the tools and run the script with this compiled version.  
+
 To get the script up and running do the following:
 
 `sudo apt install sslscan`
