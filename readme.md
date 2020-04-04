@@ -16,6 +16,8 @@ Once these prompts are completed the script will scan each host on the list, the
 
 To get the script up and running do the following:
 
+`sudo apt install sslscan`
+
 `pip install ushlex`
 
 `git clone https://github.com/nothing0x00/sslscan_helper.git`
