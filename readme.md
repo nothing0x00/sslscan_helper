@@ -14,8 +14,10 @@ Once these prompts are completed the script will scan each host on the list, the
 
 ### Installation
 
-To get the script up and running run the following:
+To get the script up and running do the following:
 
 `pip install ushlex`
-
-Then clone the repo and run the script as described above.
+`git clone https://github.com/nothing0x00/sslscan_helper.git`
+`cd sslscan_helper`
+`mkdir output`
+`python sslscan_helper.py`
